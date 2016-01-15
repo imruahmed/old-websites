@@ -1,0 +1,103 @@
+
+.midnight-blue {
+  background-color: #252839 !important;
+}
+
+.midnight-blue-text {
+  color: #252839;
+}
+
+.dark-grey {
+  background-color: #677077;
+}
+.light-grey {
+  background-color: #b5b5b7;
+}
+.gold-text {
+  color: #f2b632;
+}
+
+#header {
+  background:
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    url(http://farm6.staticflickr.com/5108/5858750522_1f22edfd37_b.jpg);
+
+  background-size: 100% auto;
+}
+#dp {
+  height: 40%;
+  width: 40%;
+  border-radius: 25px;
+  border: 6px solid #677077;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+  color: white;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+#index-banner.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  color: rgba(255,255,255,.9);
+  height: 500px;
+  background: linear-gradient(
+      rgba(68, 73, 105, 0.3),
+      rgba(181, 181, 183, 0.3)
+    );
+  
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 450px;
+  /*color: rgba(255,255,255,.9);*/
+  background: linear-gradient(
+      rgba(100, 100, 100, 0.3),
+      rgba(100, 100, 100, 0.3)
+    );
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
